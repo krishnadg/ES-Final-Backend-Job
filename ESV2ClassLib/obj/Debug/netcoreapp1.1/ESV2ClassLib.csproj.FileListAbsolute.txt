@@ -1,0 +1,8 @@
+/Users/brf4/Desktop/ESJobV2/ESV2ClassLib/bin/Debug/netcoreapp1.1/ESV2ClassLib.deps.json
+/Users/brf4/Desktop/ESJobV2/ESV2ClassLib/bin/Debug/netcoreapp1.1/ESV2ClassLib.runtimeconfig.json
+/Users/brf4/Desktop/ESJobV2/ESV2ClassLib/bin/Debug/netcoreapp1.1/ESV2ClassLib.runtimeconfig.dev.json
+/Users/brf4/Desktop/ESJobV2/ESV2ClassLib/bin/Debug/netcoreapp1.1/ESV2ClassLib.dll
+/Users/brf4/Desktop/ESJobV2/ESV2ClassLib/bin/Debug/netcoreapp1.1/ESV2ClassLib.pdb
+/Users/brf4/Desktop/ESJobV2/ESV2ClassLib/obj/Debug/netcoreapp1.1/ESV2ClassLib.AssemblyInfo.cs
+/Users/brf4/Desktop/ESJobV2/ESV2ClassLib/obj/Debug/netcoreapp1.1/ESV2ClassLib.dll
+/Users/brf4/Desktop/ESJobV2/ESV2ClassLib/obj/Debug/netcoreapp1.1/ESV2ClassLib.pdb

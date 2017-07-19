@@ -1,0 +1,13 @@
+/Users/brf4/Desktop/ESJobV2/ESV2Tests/bin/Debug/netcoreapp1.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/brf4/Desktop/ESJobV2/ESV2Tests/bin/Debug/netcoreapp1.1/xunit.runner.utility.netstandard15.dll
+/Users/brf4/Desktop/ESJobV2/ESV2Tests/bin/Debug/netcoreapp1.1/xunit.runner.reporters.netstandard15.dll
+/Users/brf4/Desktop/ESJobV2/ESV2Tests/bin/Debug/netcoreapp1.1/ESV2Tests.deps.json
+/Users/brf4/Desktop/ESJobV2/ESV2Tests/bin/Debug/netcoreapp1.1/ESV2Tests.runtimeconfig.json
+/Users/brf4/Desktop/ESJobV2/ESV2Tests/bin/Debug/netcoreapp1.1/ESV2Tests.runtimeconfig.dev.json
+/Users/brf4/Desktop/ESJobV2/ESV2Tests/bin/Debug/netcoreapp1.1/ESV2Tests.dll
+/Users/brf4/Desktop/ESJobV2/ESV2Tests/bin/Debug/netcoreapp1.1/ESV2Tests.pdb
+/Users/brf4/Desktop/ESJobV2/ESV2Tests/obj/Debug/netcoreapp1.1/ESV2Tests.AssemblyInfo.cs
+/Users/brf4/Desktop/ESJobV2/ESV2Tests/obj/Debug/netcoreapp1.1/ESV2Tests.dll
+/Users/brf4/Desktop/ESJobV2/ESV2Tests/obj/Debug/netcoreapp1.1/ESV2Tests.pdb
+/Users/brf4/Desktop/ESJobV2/ESV2Tests/bin/Debug/netcoreapp1.1/ESV2ClassLib.dll
+/Users/brf4/Desktop/ESJobV2/ESV2Tests/bin/Debug/netcoreapp1.1/ESV2ClassLib.pdb
