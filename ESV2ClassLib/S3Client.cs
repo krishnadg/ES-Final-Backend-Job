@@ -12,16 +12,17 @@ namespace ESV2ClassLib
 
     public static class S3Client
     {
-        
+
+
         //Get Json and maybe put it in S3 Storage...
-        public static void AddJsonFileToS3(AmazonS3Client client, string bucketName, string clusterName, )
+        public static void AddJsonFileToS3(string clusterName, Dictionary<string, TeamData> teamsStorage )
         {
 
-           
+            AmazonS3Client client= new AmazonS3Client();
             string jsonString = JsonConvert.SerializeObject(teamsStorage);
 
             var currentDateTime = DateTime.Now.Month + "_" + DateTime.Now.Day + "_" + DateTime.Now.Year;
-            var jsonFileKey = bucketPrefix + "-leaderboard-data/s3-leaderboard/" + currentDateTime.ToString() + ".json";
+            var jsonFileKey = clusterName + "-leaderboard-data/es-leaderboard/" + currentDateTime + ".json";
 
                         
 

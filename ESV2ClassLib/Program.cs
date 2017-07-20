@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-
+using Amazon.S3.Model;
+using Amazon.S3;
  namespace ESV2ClassLib {
     static class Program {
         
@@ -18,13 +19,14 @@ using Newtonsoft.Json;
         var pfxCert = args[1];//"merged-cert-and-key.pfx"; //args[1]
         
 
+
         ElasticSearchClient client = new ElasticSearchClient(node, pfxCert );
         ESJob jobDoer = new ESJob(client);
 
         Dictionary<string, TeamData> teamsData = jobDoer.GetData();
 
         jobDoer.PrintData();
-
+        //S3Client.AddJsonFileToS3("clusterName", teamsData);
         
         }
     }
