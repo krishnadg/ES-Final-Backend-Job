@@ -22,9 +22,7 @@ stage ('Test') {
 }
 
 stage ('Dind') {
-  podTemplate(
-    label: 'default',
-  ) {
+   {
     node('default') {
       container('default') {
         git url: 'https://github.com/krishnadg/ES-Final-Backend-Job.git', branch: 'master'
