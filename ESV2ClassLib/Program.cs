@@ -15,7 +15,7 @@ using Newtonsoft.Json;
         static void Main(string[] args) {
 
         var node = args[0]; //args[0]
-        var pfxCert = "merged-cert-and-key.pfx"; //args[1]
+        var pfxCert = args[1];//"merged-cert-and-key.pfx"; //args[1]
         
 
         ElasticSearchClient client = new ElasticSearchClient(node, pfxCert );
