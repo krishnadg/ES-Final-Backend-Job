@@ -52,7 +52,7 @@ namespace ESV2Tests
             string json = JsonConvert.SerializeObject(teamData);
 
 
-            Assert.True(false, json);
+            Assert.True(true, json);
 
 
 

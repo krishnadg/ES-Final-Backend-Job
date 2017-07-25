@@ -23,7 +23,7 @@ namespace ESTests
         string uri;
         string pfxCert;
 
-         /*Test Helper method */
+        /*Test Helper method */
         public void AreSameDictionaries(Dictionary<string, TeamData> expected, Dictionary<string, TeamData> result)
         {  
             var countMatches = expected.Count == result.Count;

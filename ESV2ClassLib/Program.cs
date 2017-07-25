@@ -15,8 +15,8 @@ using Amazon.S3;
         // Args in format []
         static void Main(string[] args) {
 
-        var node = args[0]; //args[0]
-        var pfxCert = args[1];//"merged-cert-and-key.pfx"; //args[1]
+        var node = args[0]; 
+        var pfxCert = args[1];//"merged-cert-and-key.pfx";
         
 
 
@@ -26,7 +26,8 @@ using Amazon.S3;
         Dictionary<string, TeamData> teamsData = jobDoer.GetData();
 
         jobDoer.PrintData();
-        //S3Client.AddJsonFileToS3("clusterName", teamsData);
+        
+        S3Client.AddJsonFileToS3("Prod V2", teamsData);
         
         }
     }

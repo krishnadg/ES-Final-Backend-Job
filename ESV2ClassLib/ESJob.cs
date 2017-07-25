@@ -44,7 +44,7 @@ namespace ESV2ClassLib
                 teamData = indexParser.ParseIndexDataIntoDict(teamData, indexData);
             }
 
-
+    
             return teamData;
 
         }
@@ -69,9 +69,6 @@ namespace ESV2ClassLib
             Console.WriteLine("\nLeader: " + teamLeader + " Storage: " + leaderStorage);
 
         }
-
-
-       
 
     }
 }
