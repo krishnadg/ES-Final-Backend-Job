@@ -20,13 +20,10 @@ namespace ESV2ClassLib
 
             AmazonS3Client client= new AmazonS3Client();
 
-            //Put dictionary in descending order...
-            var sortedTeamStorage = from entry in teamsStorage orderby entry.Value descending select entry;
+          
+            string jsonString = JsonConvert.SerializeObject(teamsStorage);
 
-
-            string jsonString = JsonConvert.SerializeObject(sortedTeamStorage);
-
-            var currentDateTime = DateTime.Now.Month + "_" + DateTime.Now.Day + "_" + DateTime.Now.Year;
+            var currentDateTime = DateTime.Now.Year + "_" + DateTime.Now.Month + "_" + DateTime.Now.Day;
             
             var jsonFileKey = clusterName + "leaderboard/elasticsearch.json";
             var jsonFileKeyWithDate = clusterName + "leaderboard/elasticsearch-history/" + currentDateTime + ".json";
