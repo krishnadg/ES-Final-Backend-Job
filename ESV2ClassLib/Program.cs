@@ -15,6 +15,8 @@ using Amazon.S3;
         // Args in format []
         static void Main(string[] args) {
 
+
+        Console.WriteLine("Collected Args: " + args.Length);
         var node = args[0]; 
         var pfxCert = args[1];//"merged-cert-and-key.pfx";
         
