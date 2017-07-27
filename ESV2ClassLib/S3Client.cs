@@ -25,8 +25,8 @@ namespace ESV2ClassLib
 
             var currentDateTime = DateTime.Now.Year + "_" + DateTime.Now.Month + "_" + DateTime.Now.Day;
             
-            var jsonFileKey = clusterName + "leaderboard/elasticsearch.json";
-            var jsonFileKeyWithDate = clusterName + "leaderboard/elasticsearch-history/" + currentDateTime + ".json";
+            var jsonFileKey = "leaderboard/elasticsearch.json";
+            var jsonFileKeyWithDate = "leaderboard/elasticsearch-history/" + currentDateTime + ".json";
 
                         
 
