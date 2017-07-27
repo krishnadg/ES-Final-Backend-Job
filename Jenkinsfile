@@ -27,7 +27,7 @@ podTemplate(
 		stage ('Test Elasticsearch Job') 
 		{
 			container('dotnet-core') {
-			     sh 'dotnet restore && dotnet test ESTests/ESTests.csproj --filter Category!=Integration'
+			     sh 'dotnet restore && dotnet test ESV2Tests/ESTV2ests.csproj --filter Category!=Integration'
 			}		
 		}
 
