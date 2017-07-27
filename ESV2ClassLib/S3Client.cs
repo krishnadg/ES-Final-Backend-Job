@@ -48,7 +48,7 @@ namespace ESV2ClassLib
             
             PutObjectResponse putJsonResponse = client.PutObjectAsync(putJsonRequest).GetAwaiter().GetResult();
             PutObjectResponse putJsonResponse2 = client.PutObjectAsync(putJsonRequestWithDate).GetAwaiter().GetResult();
-            
+            Console.WriteLine("Uploaded json to s3. Response: " + putJsonResponse.HttpStatusCode + " destination: " + client.Config.DetermineServiceURL());
             
         }
 
