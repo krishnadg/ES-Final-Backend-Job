@@ -5,7 +5,7 @@ COPY . /usr/share/dotnet/sdk/esjobv2
 WORKDIR /usr/share/dotnet/sdk/esjobv2
 RUN dotnet restore 
 RUN dotnet build 
-ENTRYPOINT dotnet run --project ESV2ClassLib/ESV2ClassLib.csproj
+ENTRYPOINT ["dotnet",  "run",  "--project",  "ESV2ClassLib/ESV2ClassLib.csproj"]
 
 
 
