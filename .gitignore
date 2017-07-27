@@ -31,3 +31,9 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+ESV2ClassLib/bin/Debug/netcoreapp1.1/ESV2ClassLib.dll
+ESV2ClassLib/bin/Debug/netcoreapp1.1/ESV2ClassLib.pdb
+ESV2ClassLib/obj/Debug/netcoreapp1.1/ESV2ClassLib.dll
+ESV2ClassLib/obj/Debug/netcoreapp1.1/ESV2ClassLib.pdb
+ESV2Tests/bin/Debug/netcoreapp1.1/ESV2ClassLib.dll
+ESV2Tests/bin/Debug/netcoreapp1.1/ESV2ClassLib.pdb
