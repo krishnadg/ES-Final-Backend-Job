@@ -19,9 +19,11 @@ namespace ESV2ClassLib
         {
 
             AmazonS3Client client= new AmazonS3Client();
-
+            JsonFileConstructor jsonConstructor =  new JsonFileConstructor();
           
-            string jsonString = JsonConvert.SerializeObject(teamsStorage);
+            FinalJsonRoot jsonRootObj = jsonConstructor.GetFinalJsonStructure(teamsStorage);
+
+            string jsonString = JsonConvert.SerializeObject(jsonRootObj);
 
             var currentDateTime = DateTime.Now.Year + "_" + DateTime.Now.Month + "_" + DateTime.Now.Day;
             
