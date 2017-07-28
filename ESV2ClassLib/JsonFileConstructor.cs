@@ -78,6 +78,5 @@ namespace ESV2ClassLib
             return rootTeam;
         }
 
-
     }
 }
