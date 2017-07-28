@@ -25,7 +25,8 @@ namespace ESV2ClassLib
                 period = "all_time",
                 unit = "bytes",
                 name = "Elastic_Search",
-                dateEvaluated = DateTime.Now
+                dateEvaluated = DateTime.Now,
+                costPerUnit = 0
             };
 
             rootObj = new FinalJsonRoot()
