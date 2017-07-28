@@ -56,6 +56,7 @@ namespace ESTests
 
         }
 
+        //Can't run this without cert in local file
         [Fact]
         [Trait("Category", "Integration")]
         public void GetData_SeveralIndicesNoDuplicates_ReturnTeamDataForAll()
